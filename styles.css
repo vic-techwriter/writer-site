@@ -1,0 +1,65 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+body {
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #000000, #010101);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #010101, #0d0d0d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lato', sans-serif;
+  color: #f9f9f9;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+h3 {
+  color: #f5cd79;
+}
+
+a {
+  color: #778beb;
+}
+
+#introduction {
+	padding: 10%;
+}
+
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+
+	#introduction {
+		width: 700px;
+	}
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+	#introduction {
+		width: 800px;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+	#introduction {
+		padding: 120px;
+	}
+
+
+}
+
+/* Extra Large devices (large desktops, 1440 and up) */
+@media (min-width: 1440px) {
+
+	#introduction {
+		padding: 5%;
+	}
+
+}
