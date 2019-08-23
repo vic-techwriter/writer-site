@@ -25,7 +25,15 @@ a {
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: $screen-sm-min) {
+@media (min-width: 768px) {
+
+	h3 {
+		font-size: 28px;
+	}
+
+	body {
+		font-size: 22px;
+	}
 
 	#introduction {
 		width: 700px;
@@ -35,7 +43,15 @@ a {
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: $screen-md-min) {
+@media (min-width: 992px) {
+
+	h3 {
+		font-size: 32px;
+	}
+
+	body {
+		font-size: 24px;
+	}
 
 	#introduction {
 		width: 800px;
@@ -44,14 +60,14 @@ a {
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: $screen-lg-min) {
+@media (min-width: 1200px) {
 
 	h3 {
 		font-size: 32px;
 	}
 
 	body {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	#introduction {
@@ -65,11 +81,12 @@ a {
 @media (min-width: 1440px) {
 
 	h3 {
-	  font-size: 38px;
+	  font-size: 46px;
 	}
 
 	body {
 		font-size: 28px;
+	  line-height: 2;
 	}
 
 	#introduction {
