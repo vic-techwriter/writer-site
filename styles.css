@@ -2,23 +2,36 @@
 /* No media query since this is the default in Bootstrap */
 
 body {
-	background: #010101;  /* fallback for old browsers */
+	background: #f9f9f9;  /* fallback for old browsers */
   font-family: 'Lato', sans-serif;
-  color: #f9f9f9;
+  color: #010101;
   font-size: 18px;
   line-height: 1.8;
 }
 
 h3 {
-  color: #f5cd79;
+  color: #2c3e50;
+	padding-bottom: 0%;
+}
+
+h6 {
+  color: #434343;
 }
 
 a {
-  color: #778beb;
+  color: #2980b9;
+}
+
+li {
+	line-height: 1.4;
 }
 
 #introduction {
 	padding: 10%;
+}
+
+#intro-subtitle {
+	padding: 0 0 5% 2%;
 }
 
 
@@ -28,7 +41,20 @@ a {
 @media (min-width: 768px) {
 
 	h3 {
-		font-size: 28px;
+		font-size: 38px;
+	}
+
+	body {
+		font-size: 20px;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	h3 {
+		font-size: 42px;
 	}
 
 	body {
@@ -39,39 +65,22 @@ a {
 		width: 700px;
 	}
 
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-
-	h3 {
-		font-size: 32px;
-	}
-
-	body {
-		font-size: 24px;
-	}
-
-	#introduction {
-		width: 800px;
-	}
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
 	h3 {
-		font-size: 32px;
+	  font-size: 52px;
 	}
 
 	body {
-		font-size: 24px;
+		font-size: 26px;
+	  line-height: 2;
 	}
 
 	#introduction {
-		padding: 120px;
+		width: 900px;
 	}
 
 
@@ -80,17 +89,6 @@ a {
 /* Extra Large devices (large desktops, 1440 and up) */
 @media (min-width: 1440px) {
 
-	h3 {
-	  font-size: 46px;
-	}
 
-	body {
-		font-size: 28px;
-	  line-height: 2;
-	}
-
-	#introduction {
-		padding: 5%;
-	}
 
 }
