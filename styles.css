@@ -5,8 +5,8 @@ body {
 	background: #f9f9f9;  /* fallback for old browsers */
   font-family: 'Source Sans Pro', sans-serif;
   color: #4d4d4d;
-  font-size: 18px;
-  line-height: 1.6;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 h1 {
@@ -27,7 +27,7 @@ a {
 }
 
 li {
-	line-height: 1.1;
+	line-height: 1.2;
 }
 
 #introduction {
