@@ -3,18 +3,20 @@
 
 body {
 	background: #f9f9f9;  /* fallback for old browsers */
-  font-family: 'Lato', sans-serif;
-  color: #010101;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #4d4d4d;
   font-size: 18px;
   line-height: 1.8;
 }
 
-h3 {
-  color: #2c3e50;
+h1 {
 	padding-bottom: 0%;
+	font-family: 'Harmattan', sans-serif;
+  color: #2c3e50;
+	text-transform: uppercase;
 }
 
-h6 {
+h4 {
   color: #434343;
 }
 
@@ -23,15 +25,20 @@ a {
 }
 
 li {
-	line-height: 1.4;
+	line-height: 1.1;
 }
 
 #introduction {
-	padding: 10%;
+	padding: 100px 0 10% 0;
 }
 
 #intro-subtitle {
-	padding: 0 0 5% 2%;
+	padding: 0 0 5px 0;
+	text-transform: uppercase;
+}
+
+#intro-bio {
+	padding: 0 0 50px 0;
 }
 
 
@@ -40,7 +47,7 @@ li {
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
-	h3 {
+	h1 {
 		font-size: 38px;
 	}
 
@@ -53,7 +60,7 @@ li {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-	h3 {
+	h1 {
 		font-size: 42px;
 	}
 
@@ -70,17 +77,18 @@ li {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-	h3 {
-	  font-size: 52px;
+	h1 {
+	  font-size: 124px;
+		line-height: .7;
 	}
 
 	body {
 		font-size: 26px;
-	  line-height: 2;
+	  line-height: 1.2;
 	}
 
 	#introduction {
-		width: 900px;
+		width: 600px;
 	}
 
 
