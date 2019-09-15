@@ -31,12 +31,13 @@ a {
 }
 
 li {
-	line-height: 1.2;
+	line-height: 1.3;
 }
 
 hr {
-	margin-bottom: 20px;
-	border-top: 1px solid rgba(44, 62, 80, 0.5);
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border-top: 1px solid rgba(44, 62, 80, 0.4);
 }
 
 #introduction {
@@ -52,6 +53,7 @@ hr {
 }
 
 #intro-bio {
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -71,7 +73,7 @@ hr {
 	}
 
 	hr {
-		margin-bottom: 40px;
+		margin-bottom: 60px;
 	}
 
 	#introduction {
@@ -85,6 +87,7 @@ hr {
 	}
 
 	#intro-bio {
+		margin-top: 40px;
 		margin-bottom: 40px;
 	}
 
