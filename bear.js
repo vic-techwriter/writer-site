@@ -5,7 +5,7 @@ window.onload = function() {
     var date = new Date();
     var calendar = months[date.getMonth()] + '  ' + date.getFullYear();
     var city = 'Austin, TX';
-    var social = '<a href="https://twitter.com/Vic_techcomm">Twitter</a>';
+    var social = '<a href="https://twitter.com/Vic_techcomm">Contact</a>';
 
     document.getElementById('contact').innerHTML = city + ' | ' + calendar + ' | ' + social;
 };
