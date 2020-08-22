@@ -9,3 +9,14 @@ window.onload = function() {
 
     document.getElementById('contact').innerHTML = city + ' | ' + calendar + ' | ' + social;
 };
+
+// URLs
+function relocate_about()
+{
+     location.href = "https://victor-estrada.com/about";
+}
+
+function relocate_resume()
+{
+     location.href = "https://victor-estrada.com/resume.pdf";
+}
