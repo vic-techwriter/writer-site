@@ -69,6 +69,18 @@ h4 {
 	line-height: 1;
 }
 
+#work-history .bg-light {
+	background-color: rgba(106, 137, 204, 0.1) !important;
+}
+
+#work-history .card-title {
+  color: #2c3e50; 
+}
+
+#education .bg-light {
+	background-color: rgba(44, 62, 80, 0.1) !important;
+}
+
 
 p {
 
