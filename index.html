@@ -53,14 +53,16 @@
             <div class="card bg-light mb-3">
               <div class="card-body">
                 <h5 class="card-title">MA in Technical Communication</h5>
-                <h6 class="card-subtitle mb-2 text-muted">University of North Texas | 2017</h6>
+                <h6 class="card-subtitle mb-2">University of North Texas | 2017</h6>
                 <p class="card-text">Nationally-awarded graduate progam teaching a user-centered approach to writing, editing, and structuring technical content for modern authoring management systems.</p>
                 <h6 class="card-text mb-3">GPA 3.8</h6>
               </div>
             </div>
           </div>
-          <input type="button" class="btn btn-outline-dark btn-lg btn-block" value="About Me" onclick="relocate_about()"></input>
-          <input type="button" class="btn btn-dark btn-lg btn-block" value="R&eacute;sum&eacute; (PDF)" onclick="relocate_resume()"></input>
+          <div id="footer-button">
+            <input type="button" class="btn btn-outline-dark btn-lg btn-block" value="About Me" onclick="relocate_about()"></input>
+            <input type="button" class="btn btn-dark btn-lg btn-block" value="R&eacute;sum&eacute; (PDF)" onclick="relocate_resume()"></input>
+        </div>
         </div>
       </div>
     </div>
@@ -70,18 +72,19 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="contactModalLongTitle">Contact Me</h5>
+        <h4 class="modal-title" id="contactModalLongTitle">Contact Me</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <p>vic.estrada@protonmail.com</p>
-        <p>LinkedIn</p>
-        <p>Twitter</p>
+        <h4 class="text-center"><a href="#">LinkedIn</a></h4>
+        <h4 class="text-center"><a href="#">vic.estrada@protonmail.com</a></h4>
+        <h4 class="text-center"><a href="#">Twitter</a></h4>
+        <br/>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
