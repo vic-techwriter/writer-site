@@ -3,19 +3,10 @@
 <html>
   <body>
     <xsl:template match="/overview">
-      <div class="pages container-fluid">
-        <div class="row">
-          <div class="col">
-            <div id="intro-bio">
-              <h1>Victor Estrada</h1>
-              <h3><xsl:value-of select="subtitle" /></h3>
-              <h4>Technical Communicator | <a href="https://victor-estrada.com/resume.pdf">Resume</a></h4>
-              <h4 id="contact"></h4>
-            </div>
-            <hr/>
-          </div>
-        </div>
-      </div>
+
+      <h1>Victor Estrada</h1>
+      <h3><xsl:value-of select="subtitle" /></h3>
+
     </xsl:template>
   </body>
 </html>
