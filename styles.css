@@ -73,7 +73,7 @@ h4 {
 	background-color: rgba(106, 137, 204, 0.1) !important;
 }
 
-#work-history .card-title {
+.card-title {
   color: #2c3e50;
 }
 
@@ -81,9 +81,7 @@ h4 {
 	background-color: rgba(44, 62, 80, 0.1) !important;
 }
 
-#education h6 {
-	color: #2c3e50;
-}
+
 
 p {
 
