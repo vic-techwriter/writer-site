@@ -8,7 +8,7 @@
             <div id="intro-bio">
               <h1>Victor Estrada</h1>
               <h3><xsl:value-of select="subtitle" /></h3>
-              <h4>Technical Communicator | <a href="https://victor-estrada.com/resume.pdf">R&eacute;sum&eacute;</a></h4>
+              <h4>Technical Communicator | <a href="https://victor-estrada.com/resume.pdf">Resume</a></h4>
               <h4 id="contact"></h4>
             </div>
             <hr/>
