@@ -15,6 +15,6 @@
           </div>
         </div>
       </div>
-      </body>
-  </xsl:template>
+    </xsl:template>
+  </body>
 </xsl:stylesheet>
