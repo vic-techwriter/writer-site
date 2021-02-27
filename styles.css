@@ -106,7 +106,7 @@ hr {
 	border-top: 1px solid rgba(44, 62, 80, 0.4);
 }
 
-#resume-page {
+#resume-page hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -196,6 +196,11 @@ button {
 
 	hr {
 		margin-bottom: 60px;
+	}
+
+	#resume-page hr {
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 

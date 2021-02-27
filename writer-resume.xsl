@@ -24,7 +24,7 @@
                   <h3><xsl:value-of select="school"/></h3>
                   <h6><xsl:value-of select="level"/></h6>
                   <h5><xsl:value-of select="subject"/></h5>
-                  <p><xsl:value-of select="summary"/></p>
+                  <h6><xsl:value-of select="summary"/></h6>
                 </xsl:if>
               </xsl:for-each>
               </div>
