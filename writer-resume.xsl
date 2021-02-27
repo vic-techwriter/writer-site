@@ -8,10 +8,14 @@
     <body>
       <div id="resume-page" class="container-fluid">
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-md-4">
             <h1>Victor Estrada</h1>
             <h3><xsl:value-of select="subtitle" /></h3>
           </div>
+          <div class="col-12 col-md-4">
+            <h2>Work History</h2>
+          </div>
+          <div class="col-12 col-md-4"></div>
         </div>
       </div>
     </body>
