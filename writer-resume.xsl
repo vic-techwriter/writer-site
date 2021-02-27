@@ -21,14 +21,14 @@
               <div class="col-sm-12 col-md-4">
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UNT"'>
-                  <h3><xsl:value-of select="education/degree/school"/></h3>
+                  <h3><xsl:value-of select="school"/></h3>
                 </xsl:if>
               </xsl:for-each>
               </div>
               <div class="col-sm-12 col-md-4">
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UTA"'>
-                  <h3><xsl:value-of select="education/degree/school"/></h3>
+                  <h3><xsl:value-of select="school"/></h3>
                 </xsl:if>
               </xsl:for-each>
               </div>
