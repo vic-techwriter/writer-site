@@ -46,8 +46,8 @@
             <h2>Skills</h2>
             <h4>Technical Writing</h4>
             <xsl:for-each select="skills/tech_writing">
-              <h6><xsl:value-of select="skill"/></h6>
-              <h6><xsl:value-of select="following-sibling::*[1]"/></h6>
+              <h6><xsl:value-of select="skill[1]"/></h6>
+              <h6><xsl:value-of select="skill[2]"/></h6>
             </xsl:for-each>
             <h4>Software</h4>
           </div>
