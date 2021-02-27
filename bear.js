@@ -11,12 +11,13 @@ window.onload = function() {
     var font = '<link href="https://fonts.googleapis.com/css?family=Quicksand|Anton|Lora&display=swap" rel="stylesheet">';
     var style = '<link rel="stylesheet" href="styles.css">';
     var title = '<title>Victor Estrada - Technical Communicator</title>';
+
     document.getElementById('header').innerHTML = charset + description + keywords + author + viewport + js + bootstrap + font + style + title;
 };
 
 //Update Date
 
-onload = function() {
+window.onload = function() {
     var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     var date = new Date();
     var calendar = months[date.getMonth()] + '  ' + date.getFullYear();
