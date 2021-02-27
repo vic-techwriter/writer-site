@@ -10,7 +10,7 @@
       <meta name="author" content="Victor Estrada">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <script type="text/javascript" src="bear.js"></script>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="styles.css" />
       <title>Victor Estrada - Technical Communicator</title>
     </head>
     <body>
