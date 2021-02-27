@@ -18,7 +18,7 @@
           <div class="col-sm-12 col-md-8">
             <h2>Education</h2>
             <div class="row">
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-5">
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UNT"'>
                   <h3><xsl:value-of select="school"/></h3>
@@ -28,7 +28,7 @@
                 </xsl:if>
               </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-4">
+              <div class="col-sm-12 col-md-5">
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UTA"'>
                   <h3><xsl:value-of select="school"/></h3>
