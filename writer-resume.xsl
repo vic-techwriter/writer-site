@@ -11,9 +11,10 @@
           <div class="col-12 col-md-4">
             <h1>Victor Estrada</h1>
             <h3><xsl:value-of select="subtitle" /></h3>
+            <h3><xsl:value-of select="statement" /></p>
           </div>
           <div class="col-12 col-md-4">
-            <h2>Work History</h2>
+            <h3>Work History</h3>
           </div>
           <div class="col-12 col-md-4"></div>
         </div>
