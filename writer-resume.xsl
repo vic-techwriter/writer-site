@@ -12,7 +12,7 @@
             <h1>Victor Estrada</h1>
             <h6><xsl:value-of select="overview/statement"/></h6>
             <hr/>
-            <h3><xsl:value-of select="overview/subtitle"/></h3>
+            <h5><xsl:value-of select="overview/subtitle"/></h5>
             <hr/>
           </div>
           <div class="col-sm-12 col-md-8">
@@ -22,7 +22,7 @@
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UNT"'>
                   <h3><xsl:value-of select="school"/></h3>
-                  <h6><xsl:value-of select="level"/></h6>
+                  <h6><span><xsl:value-of select="level"/></span> | <span><xsl:value-of select="year"/></span> | <span><xsl:value-of select="gpa"/></span></h6>
                   <h5><xsl:value-of select="subject"/></h5>
                   <h6><xsl:value-of select="summary"/></h6>
                 </xsl:if>
@@ -34,7 +34,7 @@
                   <h3><xsl:value-of select="school"/></h3>
                   <h6><xsl:value-of select="level"/></h6>
                   <h5><xsl:value-of select="subject"/></h5>
-                  <p><xsl:value-of select="summary"/></p>
+                  <h6><xsl:value-of select="summary"/></h6>
                 </xsl:if>
               </xsl:for-each>
               </div>
