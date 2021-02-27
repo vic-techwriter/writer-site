@@ -22,6 +22,9 @@
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UNT"'>
                   <h3><xsl:value-of select="school"/></h3>
+                  <h6><xsl:value-of select="level"/></h6>
+                  <h5><xsl:value-of select="subject"/></h5>
+                  <p><xsl:value-of select="summary"/></p>
                 </xsl:if>
               </xsl:for-each>
               </div>
@@ -29,6 +32,9 @@
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UTA"'>
                   <h3><xsl:value-of select="school"/></h3>
+                  <h6><xsl:value-of select="level"/></h6>
+                  <h5><xsl:value-of select="subject"/></h5>
+                  <p><xsl:value-of select="summary"/></p>
                 </xsl:if>
               </xsl:for-each>
               </div>

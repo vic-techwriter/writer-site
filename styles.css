@@ -107,6 +107,7 @@ hr {
 }
 
 #resume-page {
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
@@ -195,10 +196,6 @@ button {
 
 	hr {
 		margin-bottom: 60px;
-	}
-
-	#resume-page hr {
-		margin-bottom: 20px;
 	}
 
 
