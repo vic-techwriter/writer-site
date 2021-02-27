@@ -10,6 +10,14 @@ window.onload = function() {
     document.getElementById('contact').innerHTML = city + ' | ' + calendar + ' | ' + social;
 };
 
+//Insert in head
+window.onload = function() {
+
+    var font = '<link href="https://fonts.googleapis.com/css?family=Quicksand|Anton|Lora&display=swap" rel="stylesheet">';
+
+    document.getElementById('header').innerHTML = font;
+};
+
 // URLs
 function relocate_about()
 {
