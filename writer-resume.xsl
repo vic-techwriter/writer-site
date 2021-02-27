@@ -11,8 +11,14 @@
       <title>Victor Estrada - Technical Communicator</title>
     </head>
     <body>
-      <h1>Victor Estrada</h1>
-      <h3><xsl:value-of select="subtitle" /></h3>
+      <div class="pages container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1>Victor Estrada</h1>
+            <h3><xsl:value-of select="subtitle" /></h3>
+          </div>
+        </div>
+      </div>
     </body>
   </html>
 </xsl:template>
