@@ -10,7 +10,7 @@
         <div class="row">
           <div class="col-sm-12 col-md-4">
             <h1>Victor Estrada</h1>
-            <p><xsl:value-of select="overview/statement"/></p>
+            <h6><xsl:value-of select="overview/statement"/></h6>
             <hr/>
             <h3><xsl:value-of select="overview/subtitle"/></h3>
             <hr/>
@@ -18,8 +18,16 @@
           <div class="col-sm-12 col-md-8">
             <h2>Education</h2>
             <div class="row">
-              <div class="col-sm-12 col-md-4"><h3>UNT</h3></div>
-              <div class="col-sm-12 col-md-4"><h3>UTA</h3></div>
+              <div class="col-sm-12 col-md-4">
+                <xsl:for-each select="education/degree">
+                <xsl:if test='alt_school="UNT"'>
+                  <h3><xsl:value-of select="education/degree/school"/></h3>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <xsl:for-each select="education/degree">
+                <xsl:if test='alt_school="UTA"'>
+                  <h3><xsl:value-of select="education/degree/school"/></h3>
+              </div>
             </div>
           </div>
         </div>

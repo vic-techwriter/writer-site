@@ -106,6 +106,10 @@ hr {
 	border-top: 1px solid rgba(44, 62, 80, 0.4);
 }
 
+#resume-page {
+	margin-bottom: 20px;
+}
+
 button {
 	font-family: 'Quicksand', sans-serif;
 }
@@ -191,6 +195,10 @@ button {
 
 	hr {
 		margin-bottom: 60px;
+	}
+
+	#resume-page hr {
+		margin-bottom: 20px;
 	}
 
 
