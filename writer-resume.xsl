@@ -2,7 +2,7 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:template match="resume/overview">
+<xsl:template match="resume">
   <html>
     <head id="header"><script type="text/javascript" src="bear.js"></script></head>
     <body>
@@ -10,8 +10,8 @@
         <div class="row">
           <div class="col-12 col-md-4">
             <h1>Victor Estrada</h1>
-            <h3><xsl:value-of select="subtitle" /></h3>
-            <h3><xsl:value-of select="statement" /></p>
+            <h3><xsl:value-of select="overview/subtitle" /></h3>
+            <h3><xsl:value-of select="overview/statement" /></p>
           </div>
           <div class="col-12 col-md-4">
             <h3>Work History</h3>
