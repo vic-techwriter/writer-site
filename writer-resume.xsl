@@ -6,7 +6,7 @@
   <html>
     <head id="header"><script type="text/javascript" src="bear.js"></script></head>
     <body>
-      <div class="pages container-fluid">
+      <div id="resume-page" class="container-fluid">
         <div class="row">
           <div class="col">
             <h1>Victor Estrada</h1>

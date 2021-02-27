@@ -15,6 +15,11 @@ body {
 	width: 320px;
 }
 
+#resume-page {
+	padding-bottom: 10%;
+	margin-top: 50px;
+}
+
 h1 {
 	font-family: 'Anton', sans-serif;
 	line-height: .9;
