@@ -44,6 +44,9 @@
         <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-3">
             <h2>Skills</h2>
+            <xsl:for-each select="skills/tech_writing">
+              <h6><xsl:value-of select="skill"/></h6>
+          </xsl:for-each>
           </div>
           <div class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
           <h2>Experience</h2>
