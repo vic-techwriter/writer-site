@@ -12,7 +12,7 @@
             <h1>Victor<span><br/></span>Estrada</h1>
             <h6><xsl:value-of select="overview/statement"/></h6>
             <hr/>
-            <h4><xsl:value-of select="overview/subtitle"/></h4>
+            <h5><xsl:value-of select="overview/subtitle"/></h5>
             <hr/>
           </div>
           <div id="education-title" class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
