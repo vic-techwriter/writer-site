@@ -45,14 +45,18 @@ h2 {
 	font-family: 'Anton', sans-serif;
 }
 
-#education-title h2 {
-	margin-top: 75px;
-}
-
 #intro-bio h2 {
 	padding: 20px;
 	font-size: 40px;
 	color: #2c3e50;
+}
+
+#education-title h2 {
+	margin-top: 75px;
+}
+
+#skill-title h2 {
+	text-align: center;
 }
 
 h3 {
