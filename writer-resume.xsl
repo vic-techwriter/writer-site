@@ -121,15 +121,16 @@
           </div>
           <div class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
           <h2>Experience</h2>
-          <div class="card bg-light mb-3">
-            <div class="card-body">
-              <xsl:for-each select="career/position">
-                  <h5 class="card-title"><xsl:value-of select="title"/></h5>
-                  <h6 class="card-subtitle mb-2 text-muted">Renesas Electronics | January 2020 to present</h6>
-                  <p class="card-text">Collaborating with a global team to publish documentation</p>
-              </xsl:for-each>
+          <xsl:for-each select="career/position">
+            <div class="card bg-light mb-3">
+              <div class="card-body">
+                <h5 class="card-title"><xsl:value-of select="title"/></h5>
+                <h6 class="card-subtitle mb-2 text-muted"><xsl:value-of select="company"/> | <xsl:value-of select="division"/> | <xsl:value-of select="date"/></h6>
+                <p class="card-text"><xsl:value-of select="summary"/></p>
+              </div>
+              <div class="card-footer"><h5><xsl:value-of select="accomplishment"/></h5></div>
             </div>
-          </div>
+          </xsl:for-each>
           </div>
         </div>
       </div>
