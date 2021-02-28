@@ -9,14 +9,14 @@
       <div id="resume-page" class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-3">
-            <h1>Victor Estrada</h1>
+            <h1>Victor<span><br/></span>Estrada</h1>
             <h6><xsl:value-of select="overview/statement"/></h6>
             <hr/>
             <h4><xsl:value-of select="overview/subtitle"/></h4>
             <hr/>
           </div>
           <div class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
-            <h2>Education</h2>
+            <h2 id="education-title">Education</h2>
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-5">
                 <xsl:for-each select="education/degree">
@@ -44,14 +44,14 @@
         <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-3">
             <h2>Skills</h2>
-            <h4>Technical Writing</h4>
+            <h4>Technical Writing</h4><br/>
             <xsl:for-each select="skills/tech_writing">
               <h6><xsl:value-of select="skill[1]"/></h6>
               <h6><xsl:value-of select="skill[2]"/></h6>
               <h6><xsl:value-of select="skill[3]"/></h6>
               <h6><xsl:value-of select="skill[4]"/></h6><br/>
             </xsl:for-each>
-            <h4>Software</h4>
+            <h4>Software</h4><br/>
             <xsl:for-each select="skills/software">
               <h6><xsl:value-of select="skill[1]"/></h6>
               <h6><xsl:value-of select="skill[2]"/></h6>
