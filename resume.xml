@@ -34,15 +34,15 @@
     <position>
       <title>Sr. Technical Writer</title>
       <company>Renesas Electronics</company>
-      <division></division>
+      <division>Corporate Marketing</division>
       <date>January 2020 to present</date>
       <summary>Learned new technologies and workflows, continued to meet deadlines, and built consensus among the team and collaborators.</summary>
       <accomplishment>Led in merging the Renesas documentation team with the IDT technical writers.</accomplishment>
       <items>
-        <item id="1">Learned and utilized ExtendScript, An Adobe-based Javascript framework to automate FrameMaker tasks.</item>
-        <item id="2">Took administrative control of Workfront, an Adobe platform for enterprise manangement.</item>
-        <item id="3">Learned to use Workfront to track and measure the documentation workflow.</item>
-        <item id="4">Used the Oracle system Agile to process the document lifecycle.</item>
+        <item>Learned and utilized ExtendScript, an Adobe-based Javascript framework to automate FrameMaker tasks.</item>
+        <item>Took administrative control of Workfront, an Adobe platform for enterprise manangement.</item>
+        <item>Learned to use Workfront to track and measure the documentation workflow.</item>
+        <item>Used the Oracle system Agile to process the document lifecycle.</item>
       </items>
     </position>
     <position>
@@ -53,11 +53,11 @@
       <summary>Working with a global team, I analyzed workflows, tracked metrics, diagnosed content management, and led the synthesization of the publishing workflow.</summary>
       <accomplishment>Transitioned Intersil documentation team to merge with Renesas documentation practices.</accomplishment>
       <items>
-        <item id="1">Met with Tokyo team in San Jose to integrage template branding and seek opportunities for synthesis in workflow and content management.</item>
-        <item id="1">Created web portal for the documentation team to host procedures, guidelines, and templates.</item>
-        <item id="2">Hosted training documentation tools and guidelines with subject matter experts.</item>
-        <item id="3">Led team in adopting branding guidelines, style, and technical writing principles in delieverables.</item>
-        <item id="4">Built strong relationships with new team members through merger.</item>
+        <item>Met with Tokyo team in San Jose to integrage template branding and seek opportunities for synthesis in workflow and content management.</item>
+        <item>Created web portal for the documentation team to host procedures, guidelines, and templates.</item>
+        <item>Hosted training documentation tools and guidelines with subject matter experts.</item>
+        <item>Led team in adopting branding guidelines, style, and technical writing principles in delieverables.</item>
+        <item>Built strong relationships with new team members through merger.</item>
       </items>
     </position>
     <position>
