@@ -42,10 +42,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-4 col-lg-3">
-            <h2 id="skill-title">Skills</h2>
+          <div id="skill-title" class="col-sm-12 col-md-4 col-lg-3">
+            <h2>Skills</h2>
             <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>Softskills</h4>
                 <xsl:for-each select="skills/softskills">
                   <h6><xsl:value-of select="skill[1]"/></h6>
@@ -54,7 +54,7 @@
                   <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>Leadership</h4>
                 <xsl:for-each select="skills/leadership">
                   <h6><xsl:value-of select="skill[1]"/></h6>
@@ -63,7 +63,7 @@
                   <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>Tools</h4>
                 <xsl:for-each select="skills/tools">
                   <h6><xsl:value-of select="skill[1]"/></h6>
@@ -72,7 +72,7 @@
                   <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>Technical Writing</h4>
                 <xsl:for-each select="skills/tech_writing">
                   <h6><xsl:value-of select="skill[1]"/></h6>
@@ -81,7 +81,7 @@
                   <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>Software</h4>
                 <xsl:for-each select="skills/software">
                   <h6><xsl:value-of select="skill[1]"/></h6>
@@ -90,16 +90,16 @@
                   <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>Deliverables</h4>
-                <xsl:for-each select="skills/deliverables">
+                <xsl:for-each select="skills/documents">
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>
                   <h6><xsl:value-of select="skill[3]"/></h6>
                   <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>Code</h4>
                 <xsl:for-each select="skills/code">
                   <h6><xsl:value-of select="skill[1]"/></h6>
@@ -108,7 +108,7 @@
                   <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+              <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
                 <h4>UX</h4>
                 <xsl:for-each select="skills/ux">
                   <h6><xsl:value-of select="skill[1]"/></h6>

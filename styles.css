@@ -105,8 +105,14 @@ h4 {
 }
 
 #education-title h4 {
-	margin-top: 2px;
-	margin-bottom: 6px;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+#skill-title h4 {
+	margin-top: 10px;
+	margin-bottom: 12px;
+	text-align: center;
 }
 
 #work-history .bg-light {
