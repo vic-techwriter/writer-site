@@ -124,7 +124,7 @@
           <div class="card bg-light mb-3">
             <div class="card-body">
               <xsl:for-each select="career/position">
-                <xsl:if test='title="title[1]"'>
+                <xsl:if test="title=title[1]">
                   <h5 class="card-title"><xsl:value-of select="title"/></h5>
                   <h6 class="card-subtitle mb-2 text-muted">Renesas Electronics | January 2020 to present</h6>
                   <p class="card-text">Collaborating with a global team to publish documentation</p>
