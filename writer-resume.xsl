@@ -43,7 +43,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-3">
-            <h2>Skills</h2><br/>
+            <h2>Skills</h2>
             <h4>Technical Writing</h4>
             <xsl:for-each select="skills/tech_writing">
               <h6><xsl:value-of select="skill[1]"/></h6>
