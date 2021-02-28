@@ -18,7 +18,7 @@
           <div class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
             <h2>Education</h2>
             <div class="row">
-              <div class="col-sm-12 col-md-5">
+              <div class="col-sm-12 col-md-6 col-lg-5">
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UNT"'>
                   <h3><xsl:value-of select="school"/></h3>
@@ -28,7 +28,7 @@
                 </xsl:if>
               </xsl:for-each>
               </div>
-              <div class="col-sm-12 col-md-5">
+              <div class="col-sm-12 col-md-6 col-lg-5">
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UTA"'>
                   <h3><xsl:value-of select="school"/></h3>
@@ -48,8 +48,16 @@
             <xsl:for-each select="skills/tech_writing">
               <h6><xsl:value-of select="skill[1]"/></h6>
               <h6><xsl:value-of select="skill[2]"/></h6>
+              <h6><xsl:value-of select="skill[3]"/></h6>
+              <h6><xsl:value-of select="skill[4]"/></h6><br/>
             </xsl:for-each>
             <h4>Software</h4>
+            <xsl:for-each select="skills/software">
+              <h6><xsl:value-of select="skill[1]"/></h6>
+              <h6><xsl:value-of select="skill[2]"/></h6>
+              <h6><xsl:value-of select="skill[3]"/></h6>
+              <h6><xsl:value-of select="skill[4]"/></h6><br/>
+            </xsl:for-each>
           </div>
           <div class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
           <h2>Experience</h2>

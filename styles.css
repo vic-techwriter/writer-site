@@ -25,11 +25,47 @@ h1 {
 	line-height: .9;
 }
 
+#intro-bio h1 {
+	padding: 0;
+  color: #2c3e50;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+
+#resume-page h1 {
+	color: #2c3e50;
+	font-size: 60px;
+}
+
 h2 {
+	margin-top: 40px;
+	margin-bottom: 2px;
 	font-family: 'Anton', sans-serif;
 }
 
+#education-title {
+	margin-top: 60px;
+}
+
+#intro-bio h2 {
+	padding: 20px 0;
+	font-size: 40px;
+	color: #2c3e50;
+}
+
 h3 {
+	margin-top: 20px;
+	margin-bottom: 4px;
+	line-height: 1;
+}
+
+#intro-bio h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+#resume-page h3 {
 	margin-bottom: 10px;
 	font-size: 20px;
 	line-height: 1;
@@ -41,24 +77,16 @@ h4 {
 	font-weight: normal;
 }
 
-#intro-bio h1 {
-	padding: 0;
-  color: #2c3e50;
-	font-size: 80px;
-	text-transform: uppercase;
+#resume-page h4 {
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
-#intro-bio h2 {
-	padding: 20px 0;
-	font-size: 40px;
-	color: #2c3e50;
-}
 
-#intro-bio h3 {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 12px;
-	text-transform: uppercase;
-}
+
+
+
+
 
 #intro-bio h4 {
 	margin-top: 10px;
@@ -107,8 +135,8 @@ li {
 }
 
 #resume-page hr {
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	border-top: 1px solid rgba(44, 62, 80, 0.4);
 }
 
