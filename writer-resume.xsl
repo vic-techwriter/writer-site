@@ -121,6 +121,13 @@
           </div>
           <div class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
           <h2>Experience</h2>
+          <div class="card bg-light mb-3">
+            <div class="card-body">
+              <h5 class="card-title">Sr. Technical Writer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Renesas Electronics | January 2020 to present</h6>
+              <p class="card-text">Collaborating with a global team to publish documentation</p>
+            </div>
+          </div>
           </div>
         </div>
       </div>
