@@ -73,6 +73,7 @@ h3 {
 }
 
 #resume-page h3 {
+	margin-top: 6px;
 	margin-bottom: 4px;
 	font-size: 20px;
 	line-height: 1;
@@ -102,8 +103,6 @@ h4 {
 	font-size: 16px;
 }
 
-
-
 #work-history .bg-light {
 	background-color: rgba(106, 137, 204, 0.1) !important;
 }
@@ -115,8 +114,6 @@ h4 {
 #education .bg-light {
 	background-color: rgba(44, 62, 80, 0.1) !important;
 }
-
-
 
 p {
 
@@ -137,8 +134,8 @@ li {
 }
 
 #resume-page hr {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	border-top: 1px solid rgba(44, 62, 80, 0.4);
 }
 
@@ -228,12 +225,6 @@ button {
 	.pages hr {
 		margin-bottom: 60px;
 	}
-
-	#resume-page hr {
-		margin-top: 20px;
-		margin-bottom: 20px;
-	}
-
 
 }
 
