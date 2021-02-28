@@ -51,7 +51,7 @@
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>
                   <h6><xsl:value-of select="skill[3]"/></h6>
-                  <h6><xsl:value-of select="skill[4]"/></h6></br>
+                  <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
@@ -60,7 +60,7 @@
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>
                   <h6><xsl:value-of select="skill[3]"/></h6>
-                  <h6><xsl:value-of select="skill[4]"/></h6></br>
+                  <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
@@ -69,7 +69,7 @@
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>
                   <h6><xsl:value-of select="skill[3]"/></h6>
-                  <h6><xsl:value-of select="skill[4]"/></h6></br>
+                  <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
@@ -78,7 +78,7 @@
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>
                   <h6><xsl:value-of select="skill[3]"/></h6>
-                  <h6><xsl:value-of select="skill[4]"/></h6></br>
+                  <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
@@ -87,7 +87,7 @@
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>
                   <h6><xsl:value-of select="skill[3]"/></h6>
-                  <h6><xsl:value-of select="skill[4]"/></h6></br>
+                  <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
@@ -96,7 +96,7 @@
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>
                   <h6><xsl:value-of select="skill[3]"/></h6>
-                  <h6><xsl:value-of select="skill[4]"/></h6></br>
+                  <h6><xsl:value-of select="skill[4]"/></h6><br/>
                 </xsl:for-each>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
