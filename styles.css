@@ -36,6 +36,7 @@ h1 {
 	margin-bottom: 16px;
 	color: #2c3e50;
 	font-size: 60px;
+	line-height: 1;
 }
 
 h2 {
@@ -85,7 +86,16 @@ h4 {
 	font-weight: normal;
 }
 
+#intro-bio h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #595959;
+	line-height: .7;
+	font-size: 16px;
+}
+
 #resume-page h4 {
+	margin-top: 10px;
 	margin-bottom: 12px;
 	font-size: 20px;
 }
@@ -93,14 +103,6 @@ h4 {
 #education-title h4 {
 	margin-top: 2px;
 	margin-bottom: 6px;
-}
-
-#intro-bio h4 {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	color: #595959;
-	line-height: .7;
-	font-size: 16px;
 }
 
 #work-history .bg-light {
