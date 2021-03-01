@@ -11,7 +11,7 @@
           <div class="col-sm-12 col-md-12 col-lg-11">
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <input type="url" class="nav-link" value="Home" onclick="relocate_home()"></input>
+                <a class="nav-link"  href="https://victor-estrada.com">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
