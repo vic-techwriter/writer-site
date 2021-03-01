@@ -81,11 +81,11 @@ h2 {
 }
 
 #education-title h2 {
-	margin-top: 82px;
+	margin-top: 12px;
 }
 
 #skill-title h2 {
-	margin-left: 5%;
+	margin-left: 0;
 }
 
 h3 {
@@ -259,11 +259,18 @@ button {
 		margin-bottom: 60px;
 	}
 
+	#education-title h2 {
+		margin-top: 82px;
+	}
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+	#skill-title h2 {
+		margin-left: 5%;
+	}
 
 }
 
@@ -278,6 +285,9 @@ button {
 /* Extra Large devices (large desktops, 1440 and up) */
 @media (min-width: 1440px) {
 
+	#experience {
+		margin-right: 10%;
+	}
 
 
 }
