@@ -68,11 +68,76 @@
       <summary>Collaborated with technical writers, the marketing team, and subject matter experts to edit and publish both documentation and web content for high-profile product launches.</summary>
       <accomplishment>Learned quickly how to best edit highly technical content and then trained others.</accomplishment>
       <items>
-        <item id="1">Used management system tools to track, analyze, and improve the documentation workflow</item>
-        <item id="2">Built a database to survey and analyze the Intersil corpus of technical documentation</item>
+        <item id="1">Used management system tools to track, analyze, and improve the documentation workflow.</item>
+        <item id="2">Built a database to survey and analyze the Intersil corpus of technical documentation.</item>
         <item id="3">Utilized text analysis applications to survey the writing of over 4,000 documents.</item>
         <item id="4">Scripted a parser to convert technical data into DITA topics.</item>
         <item id="4">Built rapport with the team and led te meet deadlines during a corporate merger.</item>
+      </items>
+    </position>
+    <position>
+      <title>UX Designer</title>
+      <company>Rockfish Digital</company>
+      <division></division>
+      <date>October to November 2017</date>
+      <summary>For the digital marketing agency, I designed wireframes and customer journeys with both data-based research and collaboration with the content strategist, design lead, developer, and UX lead. My projects focused on creating user-centered solutions that met marketing and usability goals for high-profile national brands.</summary>
+      <accomplishment>Contributed immediately to help a short-handed team meet deadlines for Banfield Pet Hospital and Hershey's.</accomplishment>
+      <items>
+        <item id="1">Using Sketch, built 10 dynamic wireframes to facilitate a library of veterinarian research publications and marketing content.</item>
+        <item id="2">Collaborated in workshops and meetings with the design team and client to create professional deliverables that met critical deadlines.</item>
+        <item id="3">Analyzed and synthesized months of research into 4 customer journeys for online grocery platforms.</item>
+      </items>
+    </position>
+    <position>
+      <title>UX Researcher</title>
+      <company>Harman Intl. (now a Samsung company)</company>
+      <division>UX Team</division>
+      <date>June to September 2017</date>
+      <summary>With the Harman UX team, I assisted with a 4-month user-centered research project that evaluated the use of software platforms in the design, implementation, and maintenance of audio/video (AV) control networks.</summary>
+      <accomplishment>Synthesized months of UX research into professional deliverables that informed a 2-day design mapping workshop with key clients and stakeholders.</accomplishment>
+      <items>
+        <item id="1">Evaluated competitor software and conducted heuristic evaluations of in- house AV and control software.</item>
+        <item id="2">Managed participants, conducted stakeholder interviews, organized surveys, and led contextual inquiries across 4 metropolitan areas.</item>
+        <item id="3">Conducted moderated and remote usability testing and provided quantitative and qualitative-based insight with presentations and deliverables.</item>
+      </items>
+    </position>
+    <position>
+      <title>Designer/Content Consultant</title>
+      <company>DART</company>
+      <division>Marketing</division>
+      <date>May 2017</date>
+      <summary>For the DART Marketing team, I consulted on the rail system’s new transit application in order to improve the user flow, usability, and UI design of the popular mobile app.</summary>
+      <accomplishment>With a two-day deadline, impaced the design by producing a deliverable based on research and usability principles.</accomplishment>
+      <items>
+        <item id="1">Utilizing the Invision prototype, I evaluated the current state of the application by applying a set criteria of mobile heuristics.</item>
+        <item id="2">Conducted a competitive analysis of similar applications to inform common application tasks such as user registration, onboarding, and purchases.</item>
+        <item id="3">Synthesized findings with categories of user flow, usability, and UI design into deliverables for the marketing and development teams.</item>
+      </items>
+    </position>
+    <position>
+      <title>UI / Web Editor (Internship)</title>
+      <company>Memorial Hermann</company>
+      <division>Marketing</division>
+      <date>December 2016 to March 2017</date>
+      <summary>For the largest non-profit healthcare system in Texas, I maintained and implemented the online style guide, coded responsive web pages with HTML, CSS, and the CMS content editor, created web banners for the site and social media, implemented usability recommendations, collaborated with 12 departments to update existing content, and wireframed content for new departmental sites.</summary>
+      <accomplishment>Working on a variety of projects, I worked closely across departments to develop user-focused web content.</accomplishment>
+      <items>
+        <item id="1">Using SEO practices, collaborated with marketing leads with tools such as Moz, Wistia, and WordStream to produce content that drives consumer traffic.</item>
+        <item id="2">Created personas and wireframes to inform the development of a new online presence, the Special Pharmacy.</item>
+        <item id="3">Analyzed and implemented usability recommendations for the Ironman Sports Medicine Institute.</item>
+      </items>
+    </position>
+    <position>
+      <title>Web Developer, UNT for DSA Marketing, 2015-2016</title>
+      <company>Memorial Hermann</company>
+      <division>Marketing</division>
+      <date>June 2015 to August 2016</date>
+      <summary>I collaborated with 25 departmental heads to create and maintain content for their sites, analyzed analytical data for the site's 43,000 monthly visitors to produce design recommendations, and used Illustrator, Photoshop, Dreamweaver, Bootstrap, and the Drupal CMS to design and develop content.</summary>
+      <accomplishment>With the position unexpectedly vacant, I filled it and learned quickly to use PHP, Bootstrap, and Dreamweaver to maintain the existing workflow for the university administration.</accomplishment>
+      <items>
+        <item id="1">Conducted user research including multiple card sorts to create recommendations for the site redesign.</item>
+        <item id="2">Utilized Google Analytics data to inform design and content decisions.</item>
+        <item id="3">Maintained the use of Bootstrap to develp a mobile-first design.</item>
       </items>
     </position>
   </career>
