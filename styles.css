@@ -33,6 +33,10 @@ li {
 	font-size: 24px;
 }
 
+#resume-page .text-muted {
+    color: #6b8cae !important;
+}
+
 #resume-page .card-text {
 	font-size: 16px;
 }
@@ -127,6 +131,7 @@ h4 {
 	margin-top: 10px;
 	margin-bottom: 12px;
 	font-size: 20px;
+	color: #2c3e50;
 }
 
 #education-title h4 {
