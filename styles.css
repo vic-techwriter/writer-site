@@ -25,6 +25,7 @@ a {
 
 li {
 	line-height: 1.3;
+	margin-bottom: 6px;
 }
 
 #resume-page {
@@ -38,10 +39,6 @@ li {
 
 #resume-page .card-text {
 	font-size: 16px;
-}
-
-#resume-page .card-text li {
-	margin-bottom: 6px;
 }
 
 #resume-page .card-footer h5 {
