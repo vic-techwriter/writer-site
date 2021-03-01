@@ -14,7 +14,7 @@
                 <a class="nav-link"  href="https://victor-estrada.com">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="https://victor-estrada.com/resume.pdf">R&eacute;sum&eacute; PDF</a>
+                <a class="nav-link"  href="https://victor-estrada.com/resume.pdf">Resume PDF</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-toggle="modal" href="#contactModal" aria-expanded="false" aria-controls="contactModal">Contact</a>
