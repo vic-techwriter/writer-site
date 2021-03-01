@@ -8,6 +8,21 @@
     <body>
       <div id="resume-page" class="container-fluid">
         <div class="row">
+          <div class="col">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Resume PDF</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-3">
             <h1>Victor<span><br/></span>Estrada</h1>
             <h6><xsl:value-of select="overview/statement"/></h6>
