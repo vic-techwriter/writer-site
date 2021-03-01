@@ -20,6 +20,18 @@ body {
 	margin-top: 50px;
 }
 
+#resume-page .card-title {
+	font-size: 24px;
+}
+
+#resume-page .card-text {
+	font-size: 16px;
+}
+
+#resume-page .card-footer h5 {
+	font-size: 16px;
+}
+
 h1 {
 	font-family: 'Anton', sans-serif;
 	line-height: .9;
