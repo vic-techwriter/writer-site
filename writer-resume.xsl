@@ -46,7 +46,7 @@
             <h2>Skills and Tools</h2>
             <div class="row">
               <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
-                <h4>Softskills</h4>
+                <h4>Soft Skills</h4>
                 <xsl:for-each select="skills/softskills">
                   <h6><xsl:value-of select="skill[1]"/></h6>
                   <h6><xsl:value-of select="skill[2]"/></h6>

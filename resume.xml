@@ -6,7 +6,7 @@
     <title>Technical Communicator</title>
     <subtitle>UX/Technical Writer | Technical Editor | Content Strategist | User-Advocate</subtitle>
     <statement>A master of the best practices in technical communication with advanced experience in structured authoring and single-source technologies, I advocate for smart content that is reusable, searchable, and most of all, user-focused.</statement>
-    <goal>My career goal is to continue to benefit business goals by delivering fast, professional content and by advising on content goals, usablity practices, and by providing new creative soultions now made possible by web services and cloud computing.</goal>
+    <goal>My career goal is to continue to benefit business goals by delivering fast, professional content and by advising on content goals, usability practices, and by providing new creative solutions now made possible by web services and cloud computing.</goal>
   </overview>
   <education>
     <degree>
@@ -39,7 +39,7 @@
       <summary>Learned new technologies and workflows, continued to meet deadlines, and built consensus among the team and collaborators.</summary>
       <accomplishment>Led in merging the Renesas documentation team with the IDT technical writers.</accomplishment>
       <items>
-        <item>Learned and utilized ExtendScript, an Adobe-based Javascript framework to automate FrameMaker tasks.</item>
+        <item>Learned and utilized ExtendScript, an Adobe-based JavaScript framework to automate FrameMaker tasks.</item>
         <item>Took administrative control of Workfront, an Adobe platform for enterprise manangement.</item>
         <item>Learned to use Workfront to track and measure the documentation workflow.</item>
         <item>Used the Oracle system Agile to process the document lifecycle.</item>
@@ -50,13 +50,13 @@
       <company>Renesas Electronics</company>
       <division>Corporate Marketing</division>
       <date>January 2019 to December 2019</date>
-      <summary>Working with a global team, I analyzed workflows, tracked metrics, diagnosed content management, and led the synthesization of the publishing workflow.</summary>
+      <summary>Working with a global team, I analyzed workflows, tracked metrics, diagnosed content management, and synthesized the publishing workflow.</summary>
       <accomplishment>Transitioned Intersil documentation team to merge with Renesas documentation practices.</accomplishment>
       <items>
-        <item>Met with Tokyo team in San Jose to integrage template branding and seek opportunities for synthesis in workflow and content management.</item>
+        <item>Met with Tokyo team in San Jose to integrate template branding and seek opportunities for synthesis in workflow and content management.</item>
         <item>Created web portal for the documentation team to host procedures, guidelines, and templates.</item>
         <item>Hosted training documentation tools and guidelines with subject matter experts.</item>
-        <item>Led team in adopting branding guidelines, style, and technical writing principles in delieverables.</item>
+        <item>Led team in adopting branding guidelines, style, and technical writing principles in deliverables.</item>
         <item>Built strong relationships with new team members through merger.</item>
       </items>
     </position>
@@ -66,7 +66,7 @@
       <division>Corporate Marketing</division>
       <date>July 2018 to December 2018</date>
       <summary>Collaborated with technical writers, the marketing team, and subject matter experts to edit and publish both documentation and web content for high-profile product launches.</summary>
-      <accomplishment>Learned quickly how to best edit highly technical content and then trained others.</accomplishment>
+      <accomplishment>Learned quickly highly-technical content and worked to improve the writing style using technical writing principles.</accomplishment>
       <items>
         <item>Used management system tools to track, analyze, and improve the documentation workflow.</item>
         <item>Built a database to survey and analyze the Intersil corpus of technical documentation.</item>
@@ -109,12 +109,12 @@
       <division>Corporate Marketing</division>
       <date>May 2017</date>
       <summary>For the DART Marketing team, I consulted on the rail system’s new transit application in order to improve the user flow, usability, and UI design of the popular mobile app.</summary>
-      <accomplishment>With a two-day deadline, impaced the design by producing a deliverable based on research and usability principles.</accomplishment>
+      <accomplishment>With a two-day deadline, impacted the design by producing a deliverable based on research and usability principles.</accomplishment>
       <items>
         <item>Utilizing the Invision prototype, I evaluated the current state of the application by applying a set criteria of mobile heuristics.</item>
         <item>Conducted a competitive analysis of similar applications to inform common application tasks such as user registration, onboarding, and purchases.</item>
         <item>Synthesized findings with categories of user flow, usability, and UI design into deliverables for the marketing and development teams.</item>
-        <item>Collobarated closely with the marketing lead to best understand her needs and expectations.</item>
+        <item>Collaborated closely with the marketing lead to best understand her needs and expectations.</item>
       </items>
     </position>
     <position>
@@ -141,13 +141,13 @@
       <items>
         <item>Conducted user research including multiple card sorts to create recommendations for the site redesign.</item>
         <item>Utilized Google Analytics data to inform design and content decisions.</item>
-        <item>Maintained the use of Bootstrap to develp a mobile-first design.</item>
-        <item>Worked closely with departement leads to understand their priorities and content needs.</item>
+        <item>Maintained the use of Bootstrap to develop a mobile-first design.</item>
+        <item>Worked closely with department leads to understand their priorities and content needs.</item>
       </items>
     </position>
   </career>
   <skills>
-    <summary>In pushing to create clear, simple digital content for customers and end-users, my skillset and tools reflect my experience, education, and curiosity in the latest technologies.</summary>
+    <summary>In pushing to create clear, simple digital content for customers and end-users, my skill set and tools reflect my experience, education, and curiosity in the latest technologies.</summary>
     <tech_writing>
       <skill>Enterprise Publishing</skill>
       <skill>Web Publishing</skill>
@@ -161,7 +161,7 @@
       <skill>Enterprise Workflow Management</skill>
       <skill>Content Strategy</skill>
       <skill>Data-based Analytics</skill>
-      <skill>Usablity Testing</skill>
+      <skill>Usability Testing</skill>
       <skill>Audience Analysis</skill>
       <skill>Heuristic Evaluations</skill>
       <skill>Style Management</skill>
