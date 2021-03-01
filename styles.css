@@ -28,6 +28,11 @@ body {
 	font-size: 16px;
 }
 
+#resume-page .card-text li {
+	margin-bottom: 6px;
+	line-height: 1.3;
+}
+
 #resume-page .card-footer h5 {
 	font-size: 16px;
 }
