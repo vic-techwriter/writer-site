@@ -8,10 +8,10 @@
     <body>
       <div id="resume-page" class="container-fluid">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-12 col-md-12 col-lg-11">
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <input type="url" class="nav-link" value="Home" onclick="relocate_home()"></input>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
