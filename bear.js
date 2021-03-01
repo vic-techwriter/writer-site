@@ -22,7 +22,12 @@ function relocate_about()
      location.href = "https://victor-estrada.com/about";
 }
 
-function relocate_resume()
+function relocate_resume_xml()
+{
+     location.href = "https://victor-estrada.com/resume.xml";
+}
+
+function relocate_resume_pdf()
 {
      location.href = "https://victor-estrada.com/resume.pdf";
 }
