@@ -41,6 +41,10 @@ li {
 	font-size: 16px;
 }
 
+#resume-page .card-footer {
+	background: rgba(106, 137, 204, 0.1);
+}
+
 h1 {
 	font-family: 'Anton', sans-serif;
 	line-height: .9;
