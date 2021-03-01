@@ -14,20 +14,3 @@ window.onload = function() {
 
     document.getElementById('header').innerHTML = charset + description + keywords + author + viewport + js + bootstrap + font + style + title;
 };
-
-
-// URLs
-function relocate_home()
-{
-     location.href = "https://victor-estrada.com";
-}
-
-function relocate_about()
-{
-     location.href = "https://victor-estrada.com/about";
-}
-
-function relocate_resume_pdf()
-{
-     location.href = "https://victor-estrada.com/resume.pdf";
-}
