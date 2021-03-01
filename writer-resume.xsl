@@ -127,6 +127,11 @@
                 <h5 class="card-title"><xsl:value-of select="title"/></h5>
                 <h6 class="card-subtitle mb-2 text-muted"><xsl:value-of select="company"/> | <xsl:value-of select="division"/> | <xsl:value-of select="date"/></h6>
                 <p class="card-text"><xsl:value-of select="summary"/></p>
+                <ul>
+                <xsl:for-each select="items">
+                  <li class="card-text"><xsl:value-of select="item"/></li>
+                </xsl:for-each>
+                </ul>
               </div>
               <div class="card-footer"><h5><xsl:value-of select="accomplishment"/></h5></div>
             </div>
