@@ -129,7 +129,10 @@
                 <p class="card-text"><xsl:value-of select="summary"/></p>
                 <ul>
                 <xsl:for-each select="items">
-                  <li class="card-text"><xsl:value-of select="item"/></li>
+                  <li class="card-text"><xsl:value-of select="item[1]"/></li>
+                  <li class="card-text"><xsl:value-of select="item[2]"/></li>
+                  <li class="card-text"><xsl:value-of select="item[3]"/></li>
+                  <li class="card-text"><xsl:value-of select="item[4]"/></li>
                 </xsl:for-each>
                 </ul>
               </div>
