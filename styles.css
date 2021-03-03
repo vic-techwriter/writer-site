@@ -162,7 +162,7 @@ h4 {
 
 .pages hr {
 	margin-top: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	border-top: 1px solid rgba(44, 62, 80, 0.4);
 }
 
@@ -256,7 +256,7 @@ button {
 	}
 
 	.pages hr {
-		margin-bottom: 60px;
+		margin-bottom: 40px;
 	}
 
 	#education-title h2 {
@@ -267,6 +267,10 @@ button {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+	#resume-page h1 {
+		margin-top: 0;
+	}
 
 	#skill-title h2 {
 		margin-left: 5%;

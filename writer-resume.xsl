@@ -8,18 +8,19 @@
     <body>
       <div id="resume-page" class="container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-11">
+          <div class="col-sm-8 offset-sm-4 col-md-8 offset-md-4 col-lg-7 offset-lg-4">
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="nav-link"  href="https://victor-estrada.com">Home</a>
+                <a class="nav-link" href="https://victor-estrada.com">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="https://victor-estrada.com/resume.pdf">Resume PDF</a>
+                <a class="nav-link" href="https://victor-estrada.com/resume.pdf">Resume PDF</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-toggle="modal" href="#contactModal" aria-expanded="false" aria-controls="contactModal">Contact</a>
               </li>
             </ul>
+            <hr/>
           </div>
         </div>
         <div class="row">
