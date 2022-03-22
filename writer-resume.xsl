@@ -4,7 +4,7 @@
 
 <xsl:template match="resume">
   <html>
-    <head id="header"><script type="text/javascript" src="bear.js"></script></head>
+    <head id="header"><script type="text/javascript" src="bear-xml.js"></script></head>
     <body>
       <div id="resume-page" class="container-fluid">
         <div class="row">
