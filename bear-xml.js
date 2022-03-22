@@ -17,6 +17,11 @@ window.onload = function() {
 
 
 // URLs
+function relocate_home()
+{
+     location.href = "https://victor-estrada.com";
+}
+
 function relocate_about()
 {
      location.href = "https://victor-estrada.com/about";

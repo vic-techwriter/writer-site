@@ -6,6 +6,30 @@
   <html>
     <head id="header"><script type="text/javascript" src="bear-xml.js"></script></head>
     <body>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #262626;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" onclick="relocate_home()">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="relocate_about()">About</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">R&eacute;sum&eacute;<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" href="#contactModal" aria-expanded="false" aria-controls="contactModal">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div id="resume-page" class="container-fluid">
         <div class="row">
           <div class="col-sm-8 offset-sm-4 col-md-8 offset-md-4 col-lg-7 offset-lg-4">
