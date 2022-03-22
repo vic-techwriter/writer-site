@@ -283,6 +283,12 @@ button {
 
 
 /* CSS for About Page */
+#about-page .navbar {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #bfbfbf;
+}
+
 
 #intro-bio h1 {
 	padding: 0;
@@ -321,8 +327,8 @@ button {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	color: #595959;
-	line-height: .7;
-	font-size: 16px;
+	line-height: .8;
+	font-size: 11px;
 }
 
 #education-title h4 {
@@ -414,7 +420,7 @@ button {
 	}
 
 	#intro-bio h1 {
-	  font-size: 152px;
+	  font-size: 110px;
 	}
 
 	#intro-bio h3 {
@@ -425,7 +431,7 @@ button {
 	#intro-bio h4 {
 		margin-top: 30px;
 		margin-top: 10px;
-		font-size: 28px;
+		font-size: 20px;
 		line-height: .9;
 	}
 
