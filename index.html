@@ -7,89 +7,100 @@
     <meta name="author" content="Victor Estrada">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script type="text/javascript" src="home.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quicksand|Anton|Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Victor Estrada - Technical Communicator</title>
   </head>
-  <body>
-    <div class="pages container-fluid">
-      <div class="row">
-        <div class="col">
-          <div id="intro-bio">
-            <h1>Victor Estrada</h1>
-            <h3>UX/Technical Writer | User-Advocate<br/>Technical Editor | Content Strategist</h3>
-            <h4>Technical Communicator | <a href="https://victor-estrada.com/resume.xml">R&eacute;sum&eacute;</a></h4>
-            <h4 id="contact"></h4>
+  <body id="home-page">
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #262626;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" onclick="relocate_about()">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" onclick="relocate_resume_pdf()">R&eacute;sum&eacute;</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" href="#contactModal" aria-expanded="false" aria-controls="contactModal">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid" id="home-header">
+      <div class="row align-items-center">
+        <div id="header-image" class="col-md-12 col-lg-6 offset-lg-1">
+          <div class="circle-header">
+            <img class="logo-circle" src="images/circle-A1.svg">
+            <img class="logo-circle" src="images/circle-A2.svg">
+            <img class="logo-circle" src="images/circle-A7.svg">
+            <img class="logo-circle" src="images/circle-A8.svg">
+            <img class="logo-circle" src="images/circle-B1.svg">
+            <img class="logo-circle" src="images/circle-B2.svg">
+            <img class="logo-circle" src="images/circle-B3.svg">
+            <img class="logo-circle" src="images/circle-C1.svg">
+            <img class="logo-circle" src="images/circle-C2.svg">
           </div>
-          <hr/>
-          <div id="work-history">
-            <p>A master of the best practices in technical communication with advanced experience in structured authoring and single-source technologies, I advocate for smart content that is reusable, searchable, and most of all, user-focused.</p>
+        </div>
+        <div id="mobile-image" class="col-sm-12">
+          <img src="images/circle-logo-name.svg">
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <h5>A technical writer for modern web systems.</h5>
+          </br>
+          <div id="action-button">
+            <input type="button" class="btn btn-outline-dark" value="R&eacute;sum&eacute; (XML)" onclick="relocate_resume_xml()"></input>
+            <input type="button" class="btn btn-dark" value="R&eacute;sum&eacute; (PDF)" onclick="relocate_resume_pdf()"></input>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="main-footer">
+      <nav class="navbar fixed-bottom navbar-dark" style="background-color: #262626;">
+        <span class="navbar-text" id="contact"></span>
+      </nav>
+    </div>
+
+
+
+      <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="contactModalLongTitle">Contact Me</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 class="text-center"><a href="mailto:victor.estrada.9000@gmail.com">victor.estrada.9000@gmail.com</a></h4>
             <br/>
-            <div class="card bg-light mb-3">
-              <div class="card-body">
-                <h5 class="card-title">Sr. Technical Writer</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Renesas Electronics | January 2020 to present</h6>
-                <p class="card-text">Learned new technologies and workflows, continued to meet deadlines, and built consensus among the team and collaborators.</p>
-              </div>
-            </div>
-            <div class="card bg-light mb-3">
-              <div class="card-body">
-                <h5 class="card-title">Assistant Manager, Technical Publications</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Renesas Electronics | January 2019 to December 2019</h6>
-                <p class="card-text">Working with a global team, I analyzed workflows, tracked metrics, diagnosed content management, and synthesized the publishing workflow.</p>
-              </div>
-            </div>
-            <div class="card bg-light mb-3">
-              <div class="card-body">
-                <h5 class="card-title">Technical Editor</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Renesas Electronics | July 2018 to December 2018</h6>
-                <p class="card-text">Collaborated with technical writers, the marketing team, and subject matter experts to edit and publish both documentation and web content for high-profile product launches.</p>
-              </div>
-            </div>
           </div>
-          <div id="education">
-            <div class="card bg-light mb-3">
-              <div class="card-body">
-                <h5 class="card-title">MA in Technical Communication</h5>
-                <h6 class="card-subtitle mb-2">University of North Texas | 2017</h6>
-                <p class="card-text">Nationally-awarded graduate program teaching a user-centered approach to writing, editing, and structuring technical content for modern authoring management systems.</p>
-                <h6 class="card-text mb-3">GPA 3.8</h6>
-              </div>
-            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
           </div>
-          <div id="footer-button">
-            <input type="button" class="btn btn-outline-dark btn-lg btn-block" value="R&eacute;sum&eacute; Page" onclick="relocate_resume_xml()"></input>
-            <input type="button" class="btn btn-dark btn-lg btn-block" value="R&eacute;sum&eacute; (PDF)" onclick="relocate_resume_pdf()"></input>
-        </div>
         </div>
       </div>
     </div>
 
-    <!-- Modal -->
-<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="contactModalLongTitle">Contact Me</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <h4 class="text-center"><a href="mailto:victor.estrada.9000@gmail.com">victor.estrada.9000@gmail.com</a></h4>
-        <br/>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
 
   </body>
 
