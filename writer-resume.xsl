@@ -13,7 +13,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" onclick="relocate_home()">Home </a>
               </li>
               <li class="nav-item">
@@ -22,8 +22,8 @@
               <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Portfolio</a>
               </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resume<span class="sr-only">(current)</span></a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Resume (PDF)<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-toggle="modal" href="#contactModal" aria-expanded="false" aria-controls="contactModal">Contact</a>
