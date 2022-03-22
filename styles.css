@@ -312,12 +312,14 @@ button {
 	color: #bfbfbf;
 }
 
-
 #intro-bio h1 {
 	padding: 0;
   color: #2c3e50;
-	font-size: 80px;
-	text-transform: uppercase;
+	font-size: 100px;
+}
+
+#intro-bio .small-caps {
+	font-variant: small-caps;
 }
 
 #intro-bio h2 {
@@ -443,7 +445,7 @@ button {
 	}
 
 	#intro-bio h1 {
-	  font-size: 110px;
+	  font-size: 190px;
 	}
 
 	#intro-bio h3 {
