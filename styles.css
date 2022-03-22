@@ -149,7 +149,7 @@ button {
 }
 
 #mobile-image h1 {
-	font-size: 110px;
+	font-size: 90px;
 	color: #f6b93b;
 	line-height: 1;
 }
@@ -158,6 +158,10 @@ button {
 	font-size: 24px;
 	color: #f6b93b;
 	line-height: 1;
+}
+
+#mobile-image .small-caps {
+	font-variant: small-caps;
 }
 
 .logo-circle {
@@ -265,6 +269,10 @@ button {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-top: 1px solid rgba(44, 62, 80, 0.4);
+}
+
+#resume-page .small-caps {
+	font-variant: small-caps;
 }
 
 #resume-page .card-title {

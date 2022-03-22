@@ -25,7 +25,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-4 col-lg-3">
-            <h1>Victor<span><br/></span>Estrada</h1>
+            <h1>V<span class="small-caps">ictor</span><span><br/></span>E<span class="small-caps">strada</span></h1>
             <h6><xsl:value-of select="overview/statement"/></h6>
             <hr/>
             <h6><xsl:value-of select="overview/subtitle"/></h6>
