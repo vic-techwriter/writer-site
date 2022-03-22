@@ -7,10 +7,27 @@ window.onload = function() {
     var author = '<meta name="author" content="Victor Estrada">';
     var viewport = '<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">';
     var js = '<script type="text/javascript" src="bear.js"></script>';
-    var bootstrap = '<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">';
+    var bootstrap = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">';
     var font = '<link href="https://fonts.googleapis.com/css?family=Quicksand|Anton|Lora&display=swap" rel="stylesheet">';
     var style = '<link rel="stylesheet" href="styles.css">';
     var title = '<title>Victor Estrada - Technical Communicator</title>';
 
     document.getElementById('header').innerHTML = charset + description + keywords + author + viewport + js + bootstrap + font + style + title;
 };
+
+
+// URLs
+function relocate_about()
+{
+     location.href = "https://victor-estrada.com/about";
+}
+
+function relocate_resume_xml()
+{
+     location.href = "https://victor-estrada.com/resume.xml";
+}
+
+function relocate_resume_pdf()
+{
+     location.href = "https://victor-estrada.com/resume.pdf";
+}
