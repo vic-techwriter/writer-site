@@ -22,7 +22,7 @@
               <a class="nav-link" href="#">Portfolio</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="#">R&eacute;sum&eacute;<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Resume<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="modal" href="#contactModal" aria-expanded="false" aria-controls="contactModal">Contact</a>
