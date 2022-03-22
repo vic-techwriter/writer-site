@@ -139,7 +139,7 @@ button {
 #header-image {
 	display: none;
 	background-repeat: no-repeat;
-	background-image: url(images/outer-circle.svg), url(images/circle-logo-name.svg);
+	background-image: url(images/outer-circle.svg), url(images/circle-logo-name.png);
 	background-position: center;
 }
 
@@ -148,8 +148,16 @@ button {
 	text-align: center;
 }
 
-#mobile-image img {
-	width: 250px;
+#mobile-image h1 {
+	font-size: 110px;
+	color: #f6b93b;
+	line-height: 1;
+}
+
+#mobile-image h4 {
+	font-size: 24px;
+	color: #f6b93b;
+	line-height: 1;
 }
 
 .logo-circle {
