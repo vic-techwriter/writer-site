@@ -234,6 +234,13 @@ button {
 }
 
 /* CSS for the Resume XML Page */
+#resume-nav .navbar {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #bfbfbf;
+}
+
+
 #resume-page {
 	padding: 5%;
 	margin-top: 24px;
