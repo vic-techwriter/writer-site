@@ -23,7 +23,7 @@
                 <a class="nav-link" href="#">Portfolio</a>
               </li> -->
               <li class="nav-item active">
-                <a class="nav-link" href="#">Resume (PDF)<span class="sr-only">(current)</span></a>
+                <a class="nav-link" onclick="relocate_resume_xml()">Resume<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-toggle="modal" href="#contactModal" aria-expanded="false" aria-controls="contactModal">Contact</a>
@@ -42,6 +42,9 @@
             <hr/>
           </div>
           <div id="education-title" class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
+            <div id="action-button">
+              <input type="button" class="btn btn-dark" value="Resume (PDF)" onclick="relocate_resume_pdf()"></input>
+            </div>
             <h2>Education</h2>
             <div class="row">
               <div class="col-sm-12 col-md-6 col-lg-5">
@@ -196,8 +199,9 @@
               </button>
             </div>
             <div class="modal-body">
-              <h4 class="text-center"><a href="mailto:victor.estrada.9000@gmail.com">victor.estrada.9000@gmail.com</a></h4>
+              <h5 class="text-center"><a href="mailto:victor.estrada.9000@gmail.com">victor.estrada.9000@gmail.com</a></h5>
               <br/>
+              <h5 class="text-center"><a href="https://linkedin.com/in/victor-estrada-writer">linkedin.com/in/victor-estrada-writer</a></h5>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
