@@ -187,6 +187,12 @@
           </div>
         </div>
       </div>
+      <!-- Footer -->
+      <div class="main-footer">
+        <nav class="navbar fixed-bottom navbar-dark" style="background-color: #262626;">
+          <span class="navbar-text" id="contact"></span>
+        </nav>
+      </div>
 
       <!-- Modal -->
       <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
