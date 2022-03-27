@@ -1,42 +1,3 @@
-/*Color notes (websafe colors)
-background color - #f9f9f9
--alt backgrounds-
-white - #fff
-blue - rgba(106, 137, 204, 0.1) - #6a89cc
-dark - rgba(44, 62, 80, 0.1) - #2c3e50
-
-Grey heading and body text color -
-#595959
-Dark blue, alt heading - #2c3e50
-
-dark aqua, Link color - #2980b9
-
-dark teal, Job title - #6b8cae
-
-modal colors
-light grey, #b3b3b3
-dark blues, #243B55, #141E30
-
-circles
-dark red
-e63900
-bright red
-ff4000
-dark blue
-243B55
-light blue
-6a89cc
-light orange
-ff944d
-dark orange
-e65c00
-Grey
-b3b3b3
-purple
-6600cc
-
-*/
-
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
@@ -530,12 +491,14 @@ button {
 		text-align: left;
 	}
 
-
-
 }
 
 /* Extra Large devices (large desktops, 1440 and up) */
 @media (min-width: 1440px) {
+
+	#home-header {
+		margin-top: 8%;
+	}
 
 	#experience {
 		margin-right: 6%;
