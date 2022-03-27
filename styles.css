@@ -232,6 +232,8 @@ button {
 
 .main-footer .navbar {
 	justify-content: center;
+	font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
 }
 
 .main-footer a:hover {
