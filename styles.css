@@ -99,9 +99,17 @@ button {
 }
 
 .btn-primary {
+	font-family: 'Quicksand', sans-serif;
 	background-color: #345498;
 	color: #f9f9f9;
 	border-color: #2c3e50;
+}
+
+.btn-secondary {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #1a1a1a;
+	color: #f6b93b;
+	border-color: #f6b93b;
 }
 
 .btn-dark {
