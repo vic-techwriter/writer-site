@@ -1,4 +1,4 @@
-/* Extra small devices (phones, less than 768px) */
+	/* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 
@@ -121,6 +121,9 @@ button {
 #mobile-image {
 	display: block;
 	text-align: center;
+	background-repeat: no-repeat;
+	background-image: url(images/outer-circle-mobile.svg);
+	background-position: top;
 }
 
 #mobile-image h1 {
