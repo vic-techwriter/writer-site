@@ -42,7 +42,7 @@
             <hr/>
           </div>
           <div id="education-title" class="col-sm-12 col-md-8 col-lg-8 offset-lg-1">
-            <div id="action-button">
+            <div>
               <input type="button" class="btn btn-primary btn-lg btn-block" value="Resume (PDF)" onclick="relocate_resume_pdf()"></input>
             </div>
             <h2>Education</h2>
