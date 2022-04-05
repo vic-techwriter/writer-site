@@ -5,7 +5,7 @@
 /* General CSS for all pages but Home */
 body {
 	background: #f9f9f9;
-  font-family: 'Lora', serif;
+  font-family: 'Quicksand', sans-serif;
   color: #595959;
   font-size: 16px;
   line-height: 1.5;
@@ -23,6 +23,10 @@ body {
 	border-top: 1px solid rgba(44, 62, 80, 0.4);
 }
 
+p {
+	font-family: 'Lora', serif;
+}
+
 h1 {
 	font-family: 'Anton', sans-serif;
 	line-height: .9;
@@ -37,12 +41,12 @@ h2 {
 h3 {
 	margin-top: 20px;
 	margin-bottom: 4px;
+	font-family: 'Lora', serif;
 	line-height: 1;
 }
 
 h4 {
 	margin-top: 20px;
-	font-family: 'Quicksand', sans-serif;
 	font-weight: normal;
 }
 
@@ -55,23 +59,24 @@ li {
 	margin-bottom: 6px;
 }
 
+.navbar {
+	font-size: 16px;
+}
+
 .nav-link {
 	cursor: pointer;
 }
 
 button {
-	font-family: 'Quicksand', sans-serif;
 }
 
 .btn-primary {
-	font-family: 'Quicksand', sans-serif;
 	background-color: #345498;
 	color: #f9f9f9;
 	border-color: #2c3e50;
 }
 
 .btn-secondary {
-	font-family: 'Quicksand', sans-serif;
 	background-color: #1a1a1a;
 	color: #f6b93b;
 	border-color: #f6b93b;
@@ -98,8 +103,6 @@ button {
 	background: #232526;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	font-family: 'Quicksand', sans-serif;
-	font-size: 16px;
 	color: #bfbfbf;
 }
 
@@ -205,8 +208,6 @@ button {
 
 .main-footer .navbar {
 	justify-content: center;
-	font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
 }
 
 .main-footer a:hover {
@@ -216,8 +217,6 @@ button {
 
 /* CSS for the Resume XML Page */
 #resume-nav .navbar {
-	font-family: 'Quicksand', sans-serif;
-	font-size: 16px;
 	color: #bfbfbf;
 }
 
@@ -285,7 +284,6 @@ button {
 
 /* CSS for About Page */
 #about-page .navbar {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
 	color: #bfbfbf;
 }
@@ -315,7 +313,6 @@ button {
 }
 
 #intro-bio h3 {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -352,14 +349,13 @@ button {
 	background-color: rgba(44, 62, 80, 0.1) !important;
 }
 
-
+/* Modal CSS */
 
 .mb-3 {
 	margin-bottom: 2rem !important;
 }
 
 .modal-body a {
-	font-family: 'Quicksand', sans-serif;
 	color: #f6b93b;
 }
 
