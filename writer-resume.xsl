@@ -51,7 +51,7 @@
                 <xsl:for-each select="education/degree">
                 <xsl:if test='alt_school="UNT"'>
                   <h3><xsl:value-of select="school"/></h3>
-                  <h6><span><xsl:value-of select="level"/></span> | <span><xsl:value-of select="year"/></span> | <span><xsl:value-of select="gpa"/></span></h6>
+                  <h6><span><xsl:value-of select="level"/></span> | <span><xsl:value-of select="year"/></span></h6>
                   <h4><xsl:value-of select="subject"/></h4>
                   <h6><xsl:value-of select="summary"/></h6>
                 </xsl:if>
