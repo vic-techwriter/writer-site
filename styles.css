@@ -101,16 +101,42 @@ button {
 /* Color for Home - body */
 #home-page {
 	background: #232526;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, #232526, #414345);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #bfbfbf;
 }
 
 /* Defining Header (Circle logo) */
-#home-header {
-	margin-top: 80px;
+#header-image {
+	display: block;
+	margin-top: 20%;
+	margin-bottom: 10px;
 }
 
+#home-header h1 {
+	font-size: 128px;
+	color: #f6b93b;
+	text-align: center;
+}
+
+#home-page .small-caps {
+	font-size: 106px;
+}
+
+#home-page h4 {
+	font-size: 24px;
+	text-align: center;
+}
+
+#home-page h5 {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+
+/*
 .circle-header {
 		width: 366px;
 		height: 366px;
@@ -125,13 +151,14 @@ button {
 	background-position: center;
 }
 
+
 #mobile-image {
 	display: block;
 	text-align: center;
 }
 
 #mobile-image h1 {
-	font-size: 90px;
+	font-size: 120px;
 	color: #f6b93b;
 	line-height: 1;
 }
@@ -145,6 +172,10 @@ button {
 #mobile-image .small-caps {
 	font-variant: small-caps;
 }
+
+*/
+
+/*
 
 .logo-circle {
     position: absolute;
@@ -192,18 +223,14 @@ button {
     animation-duration: 160s;
 }
 
+*/
+
 #action-button .btn {
 	margin: 0 10px 20px 10px;
 }
 
 #action-button {
 	text-align: center;
-}
-
-#home-page h5 {
-	margin-top: 20px;
-	text-align: center;
-	font-size: 16px;
 }
 
 .main-footer .navbar {
@@ -358,10 +385,6 @@ button {
 	margin-bottom: 2rem !important;
 }
 
-.modal-body a {
-	color: #f6b93b;
-}
-
 .modal-content {
 	background: #262626;
 }
@@ -370,8 +393,14 @@ button {
 	color: #b3b3b3;
 }
 
-.modal-title {
+.modal-title h4 {
 	color: #b3b3b3;
+	font-size: 32px;
+}
+
+.modal-body a {
+	color: #f6b93b;
+	font-size: 20px;
 }
 
 .modal-header {
@@ -405,21 +434,26 @@ button {
 		margin-bottom: 40px;
 	}
 
-	#home-header {
-		margin-top: 40px;
-	}
-
 	#header-image {
-    display: block;
+		margin-top: 15%;
 	}
 
-	#mobile-image {
-		display: none;
+	#home-page h1 {
+		font-size: 120px;
+	}
+
+	#home-page .small-caps {
+		font-size: 90px;
+	}
+
+	#home-page h4 {
+		font-size: 38px;
+		text-align: center;
 	}
 
 	#home-page h5 {
 		margin-top: 40px;
-		font-size: 16px;
+		font-size: 22px;
 	}
 
 	#intro-bio h1 {
@@ -457,12 +491,27 @@ button {
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-
-	#home-page h5 {
-		margin-top: 0;
-		text-align: center;
+	#header-image {
+		margin-top: 8%;
+		margin-left: 8%;
 	}
 
+	#home-page h1 {
+		font-size: 145px;
+	}
+
+	#home-page .small-caps {
+		font-size: 115px;
+	}
+
+	#home-page h4 {
+		font-size: 26px;
+	}
+
+	#home-page h5 {
+		margin-top: 40%;
+		font-size: 26px;
+	}
 
 	#resume-page h1 {
 		margin-top: 0;
@@ -477,18 +526,37 @@ button {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-	#home-header {
-		margin-top: 80px;
+	#header-image {
+		margin-top: 6%;
+		margin-left: 10%;
+	}
+
+	#home-page h1 {
+		font-size: 185px;
+	}
+
+	#home-page .small-caps {
+		font-size: 150px;
+	}
+
+	#home-page h4 {
+		font-size: 34px;
 	}
 
 	#home-page h5 {
-		margin-top: 0;
-		font-size: 20px;
+		margin-top: 35%;
 		text-align: left;
+		font-size: 36px;
 	}
 
 	#action-button {
+		margin-left: 5%;
 		text-align: left;
+	}
+
+	.modal-header h4 {
+		color: #b3b3b3;
+		font-size: 32px;
 	}
 
 }
@@ -496,8 +564,60 @@ button {
 /* Extra Large devices (large desktops, 1440 and up) */
 @media (min-width: 1440px) {
 
-	#home-header {
+
+	#header-image {
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+
+	#home-page h5 {
+		margin-top: 35%;
+		text-align: center;
+		font-size: 36px;
+	}
+
+	#action-button {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	#experience {
+		margin-right: 6%;
+	}
+
+
+}
+
+/* Extra Large devices (large desktops, 1870 and up) */
+@media (min-width: 1870px) {
+
+
+	#header-image {
 		margin-top: 8%;
+		margin-left: 5%;
+	}
+
+	#home-page h1 {
+		font-size: 210px;
+	}
+
+	#home-page .small-caps {
+		font-size: 175px;
+	}
+
+	#home-page h4 {
+		font-size: 40px;
+	}
+
+	#home-page h5 {
+		margin-top: 35%;
+		text-align: center;
+		font-size: 46px;
+	}
+
+	#action-button {
+		margin-left: 0;
+		text-align: center;
 	}
 
 	#experience {
